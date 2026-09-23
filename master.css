@@ -1,0 +1,84 @@
+selector {
+    property : value;
+    propertytwo: value;
+}   
+
+/* target all paragraphs */
+
+.speacial{
+color: red;
+}
+
+p{
+color: white;
+font-size: 40px;
+}
+ 
+.-test{
+    color: aqua;
+}
+
+div {
+   background-color: red;   /*  color name */ 
+   background-color: rgb(128, 0, 0) ; /*  red green blue Alpha channel */
+background-color:#00ff00; /* color Hex code */
+
+/* background-image: url(../ChatGPT\ Image\ Aug\ 31\,\ 2026\,\ 02_59_11\ PM.png); */
+/* background-repeat: repeat; */
+ /* background-attachment: fixed; */
+/* background-position:right bottom; */
+/* background-position: 20px 400px; */
+/* background-size: cover; */
+}
+
+div{
+background-color: #ffbf00;
+/* padding: 10px 20px; */
+/* padding: 0 0 10px 0; */
+/* padding-bottom: 10px; */
+/* padding-top: 10px; */
+padding: 10px;
+ width: 70%;
+ margin-left : auto; 
+ margin-right: auto;
+/* border-width: 20px; */
+/* border-color: red ; */
+/* border-style: solid; */
+border: 20px red solid;
+outline: 20px green solid;
+
+
+/* 
+Block
+
+-take full width if no width
+-add line break
+-respect padding, margin, width, hieght 
+
+Inline
+
+-do not respect width, hieght
+-respect padding and margin [just left+right]
+-do not add line break
+-allow elments before and after it
+
+Inline-Block
+-allow elments before and after it
+-respect padding, margin, width, hieght 
+
+*/
+
+/* display: none; */
+
+
+
+
+}
+
+p{
+
+padding: 15px;
+margin: 15px;
+background-color: rgb(8, 5, 2);
+}
+  
